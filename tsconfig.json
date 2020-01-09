@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "outDir": "./build/",
+    "module": "es6",
+    "allowJs": true,
+    "sourceMap": false,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "lib": [
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "locale": "en",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "importHelpers": true
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
